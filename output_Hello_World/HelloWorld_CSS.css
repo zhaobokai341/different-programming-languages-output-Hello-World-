@@ -1,0 +1,17 @@
+/*
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="draft.css">
+</head>
+<body>
+<p class="HelloWorld"></p>
+</body>
+</html>
+*/
+.HelloWorld:before {
+    content: "Hello World"
+}
